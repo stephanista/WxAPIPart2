@@ -1,5 +1,5 @@
 const apiURL = "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather";
-const appID = "&units=metric&APPIDa4192ac11c66b463d93c577e64fda186"; //yes thats mine
+const appID = "&units=metric&appid=a4192ac11c66b463d93c577e64fda186"; 
 let debug = null
 const googKey = "AIzaSyCtTvmh8I62BBrU7qOMjAvvsfBLifI2KxI";
 
@@ -7,8 +7,6 @@ const googKey = "AIzaSyCtTvmh8I62BBrU7qOMjAvvsfBLifI2KxI";
 londonlink = "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat=51.5074&lon=0.1278&units=metric&appid=a4192ac11c66b463d93c577e64fda186"
 
 seattlelink = "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat=47.6762&lon=-122.3182&units=imperial&appid=a4192ac11c66b463d93c577e64fda186"
-
-// userlink = https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat=47.3588&lon=-122.0442&units=metric&appid=a4192ac11c66b463d93c577e64fda186
 
 
 function getSeaWx() {
